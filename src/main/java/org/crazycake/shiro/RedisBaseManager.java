@@ -9,7 +9,7 @@ import redis.clients.jedis.*;
  * @create 2018-02-26 14:43
  **/
 
-public abstract class RedisPropertiesManager implements IRedisManager{
+public abstract class RedisBaseManager implements IRedisManager{
 
     protected String ip = "127.0.0.1";
 
