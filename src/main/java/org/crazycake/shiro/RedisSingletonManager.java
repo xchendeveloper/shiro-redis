@@ -14,7 +14,7 @@ import java.util.Set;
  * @create 2018-02-26 16:30
  **/
 
-abstract class RedisSingletonManager extends RedisPropertiesManager {
+abstract class RedisSingletonManager extends RedisBaseManager {
 
     protected abstract Jedis getJedis();
 
