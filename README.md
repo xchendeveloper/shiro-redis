@@ -41,9 +41,7 @@ shiro.ini:
 # Create redisManager
 redisManager = org.crazycake.shiro.RedisManager
 # Redis host. If you don't specify host the default value is 127.0.0.1 (Optional)
-redisManager.host = 192.168.56.101
-# Redis port. Default value: 6379 (Optional)
-redisManager.port = 6379
+redisManager.host = 192.168.56.101:6379
 # Redis cache key/value expire time. Default value: 3600 .The expire time is in second (Optional)
 redisManager.expire = 600
 # Redis connect timeout. Timeout for jedis try to connect to redis server(In milliseconds).(Optional)
@@ -114,8 +112,7 @@ spring.xml:
 <!-- shiro-redis configuration [start] -->
 <!-- shiro redisManager -->
 <bean id="redisManager" class="org.crazycake.shiro.RedisManager">
-    <property name="host" value="127.0.0.1"/>
-    <property name="port" value="6379"/>
+    <property name="host" value="127.0.0.1:6379"/>
     <property name="expire" value="1800"/>
     <!-- optional properties:
     <property name="timeout" value="10000"/>
