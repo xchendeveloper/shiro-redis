@@ -223,6 +223,6 @@ These 4 Serializers are replaceable:
 
 # If you found any bugs
 
-Please send email to alexxiyang@gmail.com
+Please send email to xchendevelop@163.com
 
 可以用中文
