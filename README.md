@@ -8,17 +8,8 @@ shiro only provide the support of ehcache and concurrentHashMap. Here is an impl
 
 # Download
 
-You can choose these 2 ways to include shiro-redis into your project
 * use "git clone https://github.com/alexxiyang/shiro-redis.git" to clone project to your local workspace and build jar file by your self
-* add maven dependency 
-
-```xml
-<dependency>
-    <groupId>org.crazycake</groupId>
-    <artifactId>shiro-redis</artifactId>
-    <version>2.6.16</version>
-</dependency>
-```
+* use code direct
 
 # How to configure ?
 
