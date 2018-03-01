@@ -2,6 +2,7 @@ shiro-redis
 =============
 
 shiro only provide the support of ehcache and concurrentHashMap. Here is an implement of redis cache can be used by shiro. Hope it will help you!
+
 fork from https://github.com/alexxiyang/shiro-redis , add redis cluster support.
 
 # Download
